@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		F37D8C6E226FB48F00EF15D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C6D226FB48F00EF15D0 /* AppDelegate.swift */; };
-		F37D8C70226FB48F00EF15D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C6F226FB48F00EF15D0 /* ViewController.swift */; };
 		F37D8C73226FB48F00EF15D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37D8C71226FB48F00EF15D0 /* Main.storyboard */; };
 		F37D8C75226FB49000EF15D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37D8C74226FB49000EF15D0 /* Assets.xcassets */; };
 		F37D8C78226FB49000EF15D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37D8C76226FB49000EF15D0 /* LaunchScreen.storyboard */; };
+		F37D8C80226FB72700EF15D0 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C7F226FB72700EF15D0 /* CategoryTableViewController.swift */; };
+		F37D8C82226FB73200EF15D0 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C81226FB73200EF15D0 /* MenuTableViewController.swift */; };
+		F37D8C84226FB73900EF15D0 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C83226FB73900EF15D0 /* OrderTableViewController.swift */; };
+		F37D8C8A226FB86C00EF15D0 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C89226FB86C00EF15D0 /* MenuItemDetailViewController.swift */; };
+		F37D8C8C226FB8DF00EF15D0 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C8B226FB8DF00EF15D0 /* MenuItem.swift */; };
+		F37D8C8E226FB9BD00EF15D0 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C8D226FB9BD00EF15D0 /* IntermediaryModels.swift */; };
+		F37D8C90226FBA6000EF15D0 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C8F226FBA6000EF15D0 /* Order.swift */; };
+		F37D8C92226FBAD200EF15D0 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C91226FBAD200EF15D0 /* MenuController.swift */; };
+		F37D8C94226FDA9600EF15D0 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C93226FDA9600EF15D0 /* OrderConfirmationViewController.swift */; };
+		F37D8C962270353B00EF15D0 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C952270353B00EF15D0 /* ShadowView.swift */; };
+		F37D8C982270355C00EF15D0 /* ButtonShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C972270355C00EF15D0 /* ButtonShadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F37D8C6A226FB48F00EF15D0 /* Restaurant Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurant Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37D8C6D226FB48F00EF15D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F37D8C6F226FB48F00EF15D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F37D8C72226FB48F00EF15D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F37D8C74226FB49000EF15D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F37D8C77226FB49000EF15D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F37D8C79226FB49000EF15D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37D8C7F226FB72700EF15D0 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		F37D8C81226FB73200EF15D0 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		F37D8C83226FB73900EF15D0 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		F37D8C89226FB86C00EF15D0 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		F37D8C8B226FB8DF00EF15D0 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		F37D8C8D226FB9BD00EF15D0 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
+		F37D8C8F226FBA6000EF15D0 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F37D8C91226FBAD200EF15D0 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		F37D8C93226FDA9600EF15D0 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		F37D8C952270353B00EF15D0 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		F37D8C972270355C00EF15D0 /* ButtonShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,48 @@
 		F37D8C6C226FB48F00EF15D0 /* Restaurant Menu */ = {
 			isa = PBXGroup;
 			children = (
-				F37D8C6D226FB48F00EF15D0 /* AppDelegate.swift */,
-				F37D8C6F226FB48F00EF15D0 /* ViewController.swift */,
-				F37D8C71226FB48F00EF15D0 /* Main.storyboard */,
-				F37D8C74226FB49000EF15D0 /* Assets.xcassets */,
-				F37D8C76226FB49000EF15D0 /* LaunchScreen.storyboard */,
+				F37D8C88226FB75400EF15D0 /* View */,
+				F37D8C87226FB74D00EF15D0 /* Model */,
+				F37D8C85226FB74300EF15D0 /* Controller */,
 				F37D8C79226FB49000EF15D0 /* Info.plist */,
 			);
 			path = "Restaurant Menu";
+			sourceTree = "<group>";
+		};
+		F37D8C85226FB74300EF15D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F37D8C6D226FB48F00EF15D0 /* AppDelegate.swift */,
+				F37D8C7F226FB72700EF15D0 /* CategoryTableViewController.swift */,
+				F37D8C81226FB73200EF15D0 /* MenuTableViewController.swift */,
+				F37D8C83226FB73900EF15D0 /* OrderTableViewController.swift */,
+				F37D8C89226FB86C00EF15D0 /* MenuItemDetailViewController.swift */,
+				F37D8C93226FDA9600EF15D0 /* OrderConfirmationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F37D8C87226FB74D00EF15D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F37D8C8B226FB8DF00EF15D0 /* MenuItem.swift */,
+				F37D8C8D226FB9BD00EF15D0 /* IntermediaryModels.swift */,
+				F37D8C8F226FBA6000EF15D0 /* Order.swift */,
+				F37D8C91226FBAD200EF15D0 /* MenuController.swift */,
+				F37D8C952270353B00EF15D0 /* ShadowView.swift */,
+				F37D8C972270355C00EF15D0 /* ButtonShadow.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F37D8C88226FB75400EF15D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F37D8C71226FB48F00EF15D0 /* Main.storyboard */,
+				F37D8C74226FB49000EF15D0 /* Assets.xcassets */,
+				F37D8C76226FB49000EF15D0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F37D8C70226FB48F00EF15D0 /* ViewController.swift in Sources */,
+				F37D8C94226FDA9600EF15D0 /* OrderConfirmationViewController.swift in Sources */,
+				F37D8C962270353B00EF15D0 /* ShadowView.swift in Sources */,
+				F37D8C92226FBAD200EF15D0 /* MenuController.swift in Sources */,
+				F37D8C8C226FB8DF00EF15D0 /* MenuItem.swift in Sources */,
+				F37D8C82226FB73200EF15D0 /* MenuTableViewController.swift in Sources */,
+				F37D8C8A226FB86C00EF15D0 /* MenuItemDetailViewController.swift in Sources */,
+				F37D8C90226FBA6000EF15D0 /* Order.swift in Sources */,
+				F37D8C84226FB73900EF15D0 /* OrderTableViewController.swift in Sources */,
+				F37D8C8E226FB9BD00EF15D0 /* IntermediaryModels.swift in Sources */,
 				F37D8C6E226FB48F00EF15D0 /* AppDelegate.swift in Sources */,
+				F37D8C80226FB72700EF15D0 /* CategoryTableViewController.swift in Sources */,
+				F37D8C982270355C00EF15D0 /* ButtonShadow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
