@@ -20,10 +20,10 @@ class OrderConfirmationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpView()
+        
         
         timeRemainingLabel.text = "Thank you for your order! your wait time is approximately \(minutes!) minutes."
-        
+        setUpView()
         
     }
     
