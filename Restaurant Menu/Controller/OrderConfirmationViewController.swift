@@ -20,10 +20,33 @@ class OrderConfirmationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setUpView()
+        
         timeRemainingLabel.text = "Thank you for your order! your wait time is approximately \(minutes!) minutes."
         
+        
     }
+    
+    private func setUpView() {
+        let path = URL(fileURLWithPath: Bundle.main.path(forResource: "cookingVideo", ofType: "mp4")!)
+        let player = AVPlayer(url: path)
+        
+        let newLayer = AVPlayerLayer(player: player)
+        newLayer.frame = self.videoView.frame
+        self.videoView.layer.addSublayer(newLayer)
+        newLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
+        
+        loopVideo(videoPlayer: player)
+        player.play()
+    }
+    
+    func loopVideo(videoPlayer: AVPlayer) {
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil, queue: nil) { notification in
+            videoPlayer.seek(to: CMTime.zero)
+            videoPlayer.play()
+        }
+    }
+
     
     
   

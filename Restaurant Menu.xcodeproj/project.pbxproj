@@ -22,6 +22,7 @@
 		F37D8C94226FDA9600EF15D0 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C93226FDA9600EF15D0 /* OrderConfirmationViewController.swift */; };
 		F37D8C962270353B00EF15D0 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C952270353B00EF15D0 /* ShadowView.swift */; };
 		F37D8C982270355C00EF15D0 /* ButtonShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D8C972270355C00EF15D0 /* ButtonShadow.swift */; };
+		F37D8C9D2270DC9800EF15D0 /* cookingVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F37D8C9C2270DC9700EF15D0 /* cookingVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F37D8C93226FDA9600EF15D0 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 		F37D8C952270353B00EF15D0 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		F37D8C972270355C00EF15D0 /* ButtonShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShadow.swift; sourceTree = "<group>"; };
+		F37D8C9C2270DC9700EF15D0 /* cookingVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cookingVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		F37D8C88226FB75400EF15D0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F37D8C9C2270DC9700EF15D0 /* cookingVideo.mp4 */,
 				F37D8C71226FB48F00EF15D0 /* Main.storyboard */,
 				F37D8C74226FB49000EF15D0 /* Assets.xcassets */,
 				F37D8C76226FB49000EF15D0 /* LaunchScreen.storyboard */,
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F37D8C9D2270DC9800EF15D0 /* cookingVideo.mp4 in Resources */,
 				F37D8C78226FB49000EF15D0 /* LaunchScreen.storyboard in Resources */,
 				F37D8C75226FB49000EF15D0 /* Assets.xcassets in Resources */,
 				F37D8C73226FB48F00EF15D0 /* Main.storyboard in Resources */,

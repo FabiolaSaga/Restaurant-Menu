@@ -269,34 +269,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view alpha="0.5" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="erk-rc-bxR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCf-zM-OtX">
                                 <rect key="frame" x="16" y="284" width="343" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xE-bL-h9J">
-                                <rect key="frame" x="160.5" y="329" width="54" height="30"/>
-                                <state key="normal" title="Dismiss"/>
+                                <rect key="frame" x="130" y="329" width="121" height="42"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="0VM-EP-zt9"/>
+                                    <constraint firstAttribute="width" constant="121" id="Wvm-aY-BXQ"/>
+                                </constraints>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="IXF-RJ-im5" kind="unwind" identifier="DismissConfirmation" unwindAction="unwindToOrderListWithSegue:" id="FgO-Po-jT0"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="JCf-zM-OtX" firstAttribute="trailing" secondItem="kTf-NI-POx" secondAttribute="trailingMargin" id="2ri-cj-wZJ"/>
+                            <constraint firstAttribute="bottom" secondItem="erk-rc-bxR" secondAttribute="bottom" id="4HG-9L-otC"/>
                             <constraint firstItem="JCf-zM-OtX" firstAttribute="centerX" secondItem="kTf-NI-POx" secondAttribute="centerX" id="53z-2D-eJl"/>
-                            <constraint firstItem="glB-mi-aLl" firstAttribute="trailing" secondItem="3xE-bL-h9J" secondAttribute="trailing" constant="160.5" id="PAA-mn-Xfl"/>
-                            <constraint firstItem="3xE-bL-h9J" firstAttribute="top" secondItem="JCf-zM-OtX" secondAttribute="bottom" constant="24.5" id="R8g-6A-gy1"/>
+                            <constraint firstItem="glB-mi-aLl" firstAttribute="trailing" secondItem="3xE-bL-h9J" secondAttribute="trailing" constant="124" id="5F3-km-Gzt"/>
                             <constraint firstItem="JCf-zM-OtX" firstAttribute="leading" secondItem="kTf-NI-POx" secondAttribute="leadingMargin" id="TIF-YT-nrZ"/>
                             <constraint firstItem="JCf-zM-OtX" firstAttribute="top" secondItem="kTf-NI-POx" secondAttribute="topMargin" constant="220" id="a5T-VK-ZkO"/>
-                            <constraint firstItem="3xE-bL-h9J" firstAttribute="leading" secondItem="glB-mi-aLl" secondAttribute="leading" constant="160.5" id="ubr-nk-MAn"/>
+                            <constraint firstItem="erk-rc-bxR" firstAttribute="leading" secondItem="kTf-NI-POx" secondAttribute="leading" id="aMi-4H-9nG"/>
+                            <constraint firstItem="3xE-bL-h9J" firstAttribute="leading" secondItem="glB-mi-aLl" secondAttribute="leading" constant="130" id="lmc-d8-3Jw"/>
+                            <constraint firstItem="3xE-bL-h9J" firstAttribute="top" secondItem="JCf-zM-OtX" secondAttribute="bottom" constant="24.5" id="nAg-lh-3sM"/>
+                            <constraint firstItem="erk-rc-bxR" firstAttribute="top" secondItem="kTf-NI-POx" secondAttribute="top" id="uUq-vV-oc6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="glB-mi-aLl"/>
                     </view>
                     <connections>
                         <outlet property="timeRemainingLabel" destination="JCf-zM-OtX" id="TdG-5a-GO0"/>
+                        <outlet property="videoView" destination="erk-rc-bxR" id="mNf-BV-i1x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XzM-HC-pfa" userLabel="First Responder" sceneMemberID="firstResponder"/>
