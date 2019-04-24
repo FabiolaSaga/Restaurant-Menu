@@ -31,6 +31,8 @@ Restaurant Menu App to Place Online Orders.
 
 ### Technologies used: 
 <li>UIKit</li>
+<li>AVKit</li>
+<li>AVFoundation</li>
 <li>Xcode</li>
 <li>Swift</li>
 <li>API/JSON Network Requests</li>
