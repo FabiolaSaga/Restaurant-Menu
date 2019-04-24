@@ -26,7 +26,7 @@ Restaurant Menu App to Place Online Orders.
 
 ## Checkout
 <p float="left">
-  <img src="https://github.com/FabiolaSaga/Restaurant-Menu/blob/master/CheckoutScreen.gif" width="300" />
+  <img src="https://github.com/FabiolaSaga/Restaurant-Menu/blob/master/OrderConfirmation.gif" width="300" />
   </p>
 
 ### Technologies used: 
